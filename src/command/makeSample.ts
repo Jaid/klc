@@ -99,6 +99,10 @@ const sources: Source[] = [
     file: `src-reg/longPaths.reg`,
     repo: `reg`,
   },
+  {
+    file: `src/whisper/cli.py`,
+    repo: `ai-playground`,
+  },
 ]
 
 export const handler = async (args: ArgsMerged) => {
