@@ -1,0 +1,45 @@
+{
+  "name": "klc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "keywords": [],
+  "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
+  "homepage": "https://github.com/Jaid/klc",
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/klc"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "chalk": "^5.3.0",
+    "debug": "^4.3.4",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0",
+    "got": "^14.0.0",
+    "lodash-es": "^4.17.21",
+    "p-retry": "^6.1.0",
+    "path-equal": "^1.2.5",
+    "pretty-bytes": "^6.1.1",
+    "read-file-yaml": "^2.0.0",
+    "simple-git": "^3.21.0",
+    "super-regex": "^0.3.0",
+    "yaml": "^2.3.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.32",
+    "eslint-config-jaid": "^8.18.1",
+    "globby": "^14.0.0",
+    "tsconfig-jaid-node": "^6.1.1",
+    "type-fest": "^4.8.3"
+  },
+  "scripts": {
+    "start": "node --import tsx src/cli.ts",
+    "startList": "node --import tsx src/cli.ts -- list",
+    "test": "node --import tsx --test test/index.ts",
+    "linkConfigFolder": "if [[ ! -d private ]]; then mkdir private && echo '*' > private/.gitignore; fi && lnfs $HOME/.config/$npm_package_name private/config"
+  },
+  "bin": "./src/cli.ts"
+}

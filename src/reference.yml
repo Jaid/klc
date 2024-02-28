@@ -1,0 +1,678 @@
+keys:
+- scanCode: 1
+  row: 0
+  vk:
+    common:
+      id: ESCAPE
+      code: 27
+- scanCode: 59
+  row: 0
+  vk:
+    common:
+      id: F1
+      code: 112
+- scanCode: 60
+  row: 0
+  vk:
+    common:
+      id: F2
+      code: 113
+- scanCode: 61
+  row: 0
+  vk:
+    common:
+      id: F3
+      code: 114
+- scanCode: 62
+  row: 0
+  vk:
+    common:
+      id: F4
+      code: 115
+- scanCode: 63
+  row: 0
+  vk:
+    common:
+      id: F5
+      code: 116
+- scanCode: 64
+  row: 0
+  vk:
+    common:
+      id: F6
+      code: 117
+- scanCode: 65
+  row: 0
+  vk:
+    common:
+      id: F7
+      code: 118
+- scanCode: 66
+  row: 0
+  vk:
+    common:
+      id: F8
+      code: 119
+- scanCode: 67
+  row: 0
+  vk:
+    common:
+      id: F9
+      code: 120
+- scanCode: 68
+  row: 0
+  vk:
+    common:
+      id: F10
+      code: 121
+- scanCode: 87
+  row: 0
+  vk:
+    common:
+      id: F11
+      code: 122
+- scanCode: 88
+  row: 0
+  vk:
+    common:
+      id: F12
+      code: 123
+- scanCode: 55
+  extended: true
+  row: 0
+  vk:
+    common:
+      id: SNAPSHOT
+      code: 44
+- scanCode: 70
+  row: 0
+  vk:
+    common:
+      id: SCROLL
+      code: 145
+- scanCode: 69
+  row: 0
+  vk:
+    common:
+      id: PAUSE
+      code: 19
+- scanCode: 173
+  row: 0
+  vk:
+    common:
+      id: VOLUME_MUTE
+      code: 173
+- scanCode: 41
+  row: 1
+  vk:
+    de:
+      id: OEM_5
+      code: 220
+    en:
+      id: OEM_8
+      code: 223
+- scanCode: 2
+  row: 1
+  vk:
+    common:
+      id: '1'
+      code: 49
+- scanCode: 3
+  row: 1
+  vk:
+    common:
+      id: '2'
+      code: 50
+- scanCode: 4
+  row: 1
+  vk:
+    common:
+      id: '3'
+      code: 51
+- scanCode: 5
+  row: 1
+  vk:
+    common:
+      id: '4'
+      code: 52
+- scanCode: 6
+  row: 1
+  vk:
+    common:
+      id: '5'
+      code: 53
+- scanCode: 7
+  row: 1
+  vk:
+    common:
+      id: '6'
+      code: 54
+- scanCode: 8
+  row: 1
+  vk:
+    common:
+      id: '7'
+      code: 55
+- scanCode: 9
+  row: 1
+  vk:
+    common:
+      id: '8'
+      code: 56
+- scanCode: 10
+  row: 1
+  vk:
+    common:
+      id: '9'
+      code: 57
+- scanCode: 11
+  row: 1
+  vk:
+    common:
+      id: '0'
+      code: 48
+- scanCode: 12
+  row: 1
+  vk:
+    de:
+      id: OEM_4
+      code: 219
+    en:
+      id: OEM_MINUS
+      code: 189
+- scanCode: 13
+  row: 1
+  vk:
+    de:
+      id: OEM_6
+      code: 221
+    en:
+      id: OEM_PLUS
+      code: 187
+- scanCode: 14
+  row: 1
+  vk:
+    common:
+      id: BACK
+      code: 8
+- scanCode: 82
+  extended: true
+  row: 1
+  vk:
+    common:
+      id: INSERT
+      code: 45
+- scanCode: 71
+  extended: true
+  row: 1
+  vk:
+    common:
+      id: HOME
+      code: 36
+- scanCode: 73
+  extended: true
+  row: 1
+  vk:
+    common:
+      id: PRIOR
+      code: 33
+- scanCode: 69
+  extended: true
+  row: 1
+  vk:
+    common:
+      id: NUMLOCK
+      code: 144
+- scanCode: 53
+  extended: true
+  row: 1
+  vk:
+    common:
+      id: DIVIDE
+      code: 111
+- scanCode: 55
+  row: 1
+  vk:
+    common:
+      id: MULTIPLY
+      code: 106
+- scanCode: 74
+  row: 1
+  vk:
+    common:
+      id: SUBTRACT
+      code: 109
+- scanCode: 15
+  row: 2
+  vk:
+    common:
+      id: TAB
+      code: 9
+- scanCode: 16
+  row: 2
+  vk:
+    common:
+      id: Q
+      code: 81
+- scanCode: 17
+  row: 2
+  vk:
+    common:
+      id: W
+      code: 87
+- scanCode: 18
+  row: 2
+  vk:
+    common:
+      id: E
+      code: 69
+- scanCode: 19
+  row: 2
+  vk:
+    common:
+      id: R
+      code: 82
+- scanCode: 20
+  row: 2
+  vk:
+    common:
+      id: T
+      code: 84
+- scanCode: 21
+  row: 2
+  vk:
+    de:
+      id: Z
+      code: 90
+    en:
+      id: Y
+      code: 89
+- scanCode: 22
+  row: 2
+  vk:
+    common:
+      id: U
+      code: 85
+- scanCode: 23
+  row: 2
+  vk:
+    common:
+      id: I
+      code: 73
+- scanCode: 24
+  row: 2
+  vk:
+    common:
+      id: O
+      code: 79
+- scanCode: 25
+  row: 2
+  vk:
+    common:
+      id: P
+      code: 80
+- scanCode: 26
+  row: 2
+  vk:
+    de:
+      id: OEM_1
+      code: 186
+    en:
+      id: OEM_4
+      code: 219
+- scanCode: 27
+  row: 2
+  vk:
+    de:
+      id: OEM_PLUS
+      code: 187
+    en:
+      id: OEM_6
+      code: 221
+- scanCode: 28
+  row: 2
+  vk:
+    common:
+      id: RETURN
+      code: 13
+- scanCode: 83
+  extended: true
+  row: 2
+  vk:
+    common:
+      id: DELETE
+      code: 46
+- scanCode: 79
+  extended: true
+  row: 2
+  vk:
+    common:
+      id: END
+      code: 35
+- scanCode: 81
+  extended: true
+  row: 2
+  vk:
+    common:
+      id: NEXT
+      code: 34
+- scanCode: 71
+  row: 2
+  vk:
+    common:
+      id: NUMPAD7
+      code: 103
+- scanCode: 72
+  row: 2
+  vk:
+    common:
+      id: NUMPAD8
+      code: 104
+- scanCode: 73
+  row: 2
+  vk:
+    common:
+      id: NUMPAD9
+      code: 105
+- scanCode: 78
+  row: 2
+  vk:
+    common:
+      id: ADD
+      code: 107
+- scanCode: 58
+  row: 3
+  vk:
+    common:
+      id: CAPITAL
+      code: 20
+- scanCode: 30
+  row: 3
+  vk:
+    common:
+      id: A
+      code: 65
+- scanCode: 31
+  row: 3
+  vk:
+    common:
+      id: S
+      code: 83
+- scanCode: 32
+  row: 3
+  vk:
+    common:
+      id: D
+      code: 68
+- scanCode: 33
+  row: 3
+  vk:
+    common:
+      id: F
+      code: 70
+- scanCode: 34
+  row: 3
+  vk:
+    common:
+      id: G
+      code: 71
+- scanCode: 35
+  row: 3
+  vk:
+    common:
+      id: H
+      code: 72
+- scanCode: 36
+  row: 3
+  vk:
+    common:
+      id: J
+      code: 74
+- scanCode: 37
+  row: 3
+  vk:
+    common:
+      id: K
+      code: 75
+- scanCode: 38
+  row: 3
+  vk:
+    common:
+      id: L
+      code: 76
+- scanCode: 39
+  row: 3
+  vk:
+    de:
+      id: OEM_3
+      code: 192
+    en:
+      id: OEM_1
+      code: 186
+- scanCode: 40
+  row: 3
+  vk:
+    de:
+      id: OEM_7
+      code: 222
+    en:
+      id: OEM_3
+      code: 192
+- scanCode: 43
+  row: 3
+  vk:
+    de:
+      id: OEM_2
+      code: 191
+    en:
+      id: OEM_7
+      code: 222
+- scanCode: 75
+  row: 3
+  vk:
+    common:
+      id: NUMPAD4
+      code: 100
+- scanCode: 76
+  row: 3
+  vk:
+    common:
+      id: NUMPAD5
+      code: 101
+- scanCode: 77
+  row: 3
+  vk:
+    common:
+      id: NUMPAD6
+      code: 102
+- scanCode: 42
+  row: 4
+  vk:
+    common:
+      id: SHIFT
+      code: 16
+- scanCode: 86
+  row: 4
+  vk:
+    de:
+      id: OEM_102
+      code: 226
+    en:
+      id: OEM_5
+      code: 220
+- scanCode: 44
+  row: 4
+  vk:
+    de:
+      id: Y
+      code: 89
+    en:
+      id: Z
+      code: 90
+- scanCode: 45
+  row: 4
+  vk:
+    common:
+      id: X
+      code: 88
+- scanCode: 46
+  row: 4
+  vk:
+    common:
+      id: C
+      code: 67
+- scanCode: 47
+  row: 4
+  vk:
+    common:
+      id: V
+      code: 86
+- scanCode: 48
+  row: 4
+  vk:
+    common:
+      id: B
+      code: 66
+- scanCode: 49
+  row: 4
+  vk:
+    common:
+      id: N
+      code: 78
+- scanCode: 50
+  row: 4
+  vk:
+    common:
+      id: M
+      code: 77
+- scanCode: 51
+  row: 4
+  vk:
+    common:
+      id: OEM_COMMA
+      code: 188
+- scanCode: 52
+  row: 4
+  vk:
+    common:
+      id: OEM_PERIOD
+      code: 190
+- scanCode: 53
+  row: 4
+  vk:
+    de:
+      id: OEM_MINUS
+      code: 189
+    en:
+      id: OEM_2
+      code: 191
+- scanCode: 54
+  row: 4
+  vk:
+    common:
+      id: SHIFT
+      code: 16
+- scanCode: 72
+  extended: true
+  row: 4
+  vk:
+    common:
+      id: UP
+      code: 38
+- scanCode: 79
+  row: 4
+  vk:
+    common:
+      id: NUMPAD1
+      code: 97
+- scanCode: 80
+  row: 4
+  vk:
+    common:
+      id: NUMPAD2
+      code: 98
+- scanCode: 81
+  row: 4
+  vk:
+    common:
+      id: NUMPAD3
+      code: 99
+- scanCode: 28
+  extended: true
+  row: 4
+  vk:
+    common:
+      id: RETURN
+      code: 13
+- scanCode: 29
+  row: 5
+  vk:
+    common:
+      id: CONTROL
+      code: 17
+- scanCode: 91
+  extended: true
+  row: 5
+  vk:
+    common:
+      id: LWIN
+      code: 91
+- scanCode: 56
+  row: 5
+  vk:
+    common:
+      id: MENU
+      code: 18
+- scanCode: 57
+  row: 5
+  vk:
+    common:
+      id: SPACE
+      code: 32
+- scanCode: 93
+  extended: true
+  row: 5
+  vk:
+    common:
+      id: APPS
+      code: 93
+- scanCode: 29
+  extended: true
+  row: 5
+  vk:
+    common:
+      id: CONTROL
+      code: 17
+- scanCode: 75
+  extended: true
+  row: 5
+  vk:
+    common:
+      id: LEFT
+      code: 37
+- scanCode: 80
+  extended: true
+  row: 5
+  vk:
+    common:
+      id: DOWN
+      code: 40
+- scanCode: 77
+  extended: true
+  row: 5
+  vk:
+    common:
+      id: RIGHT
+      code: 39
+- scanCode: 82
+  row: 5
+  vk:
+    common:
+      id: NUMPAD0
+      code: 96
+- scanCode: 83
+  row: 5
+  vk:
+    common:
+      id: DECIMAL
+      code: 110
