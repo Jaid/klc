@@ -5,9 +5,10 @@ import type {ArgumentsCamelCase, Argv, CommandBuilder} from 'yargs'
 
 import * as path from 'forward-slash-path'
 import fs from 'fs-extra'
-import {ScancodeLine} from 'lib/ScancodeLine.js'
 import * as lodash from 'lodash-es'
 import {matches} from 'super-regex'
+
+import {ScancodeLine} from 'lib/ScancodeLine.js'
 
 export type Args = (typeof builder) extends CommandBuilder<any, infer U> ? ArgumentsCamelCase<U> : never
 export type ArgsMerged = Simplify<GlobalArgs & Args>
@@ -23,7 +24,7 @@ export const handler = async (args: ArgsMerged) => {
   const scancodeLog = await fs.readFile(path.join(`src`, `scancode.log`), `utf8`)
   const logMatches = matches(/Scan code: 0x(?<scanCode>.+?), Ext: (?<ext>.), Alt: (?<alt>.), VK: 0x(?<vkCode>.+?) \('?(?<vkId>.+?)'?\)/g, scancodeLog)
   for (const match of logMatches) {
-    const input = <ScancodeLineInput> match.namedGroups
+    const input = match.namedGroups as ScancodeLineInput
     const line = new ScancodeLine(input)
     if (scancodeReferences.has(line.scanCode)) {
       continue

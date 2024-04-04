@@ -22,7 +22,7 @@ export const builder = (argv: Argv) => {
   return argv
 }
 
-const sources: Source[] = [
+const sources: Array<Source> = [
   {
     file: `.gitignore`,
     repo: `repos-cli`,
