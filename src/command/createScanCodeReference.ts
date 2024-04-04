@@ -1,15 +1,13 @@
 import type {GlobalArgs} from '../makeCli.js'
-import type {ScancodeLineInput} from '~/lib/ScancodeLine.js'
+import type {ScancodeLineInput} from 'lib/ScancodeLine.js'
 import type {Simplify} from 'type-fest'
 import type {ArgumentsCamelCase, Argv, CommandBuilder} from 'yargs'
 
-import path from 'node:path'
-
+import * as path from 'forward-slash-path'
 import fs from 'fs-extra'
+import {ScancodeLine} from 'lib/ScancodeLine.js'
 import * as lodash from 'lodash-es'
 import {matches} from 'super-regex'
-
-import {ScancodeLine} from '~/lib/ScancodeLine.js'
 
 export type Args = (typeof builder) extends CommandBuilder<any, infer U> ? ArgumentsCamelCase<U> : never
 export type ArgsMerged = Simplify<GlobalArgs & Args>
